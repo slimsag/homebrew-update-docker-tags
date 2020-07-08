@@ -2,16 +2,16 @@
 class UpdateDockerTags < Formula
   desc "CLI to update Docker tag image versions"
   homepage "https://github.com/slimsag/update-docker-tags"
-  version "0.5.0"
+  version "0.6.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/slimsag/update-docker-tags/releases/download/v0.5.0/update-docker-tags_0.5.0_Darwin_x86_64.tar.gz"
-    sha256 "1fed3840bce1f0b3b299e96b5b80407db0e39b6019d818413f23c7da3582afd1"
+    url "https://github.com/slimsag/update-docker-tags/releases/download/v0.6.0/update-docker-tags_0.6.0_Darwin_x86_64.tar.gz"
+    sha256 "2aa4ad58cd55cd09acb41a2dd4263012d08c1615ca707cff354a5e4c070d4a70"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/slimsag/update-docker-tags/releases/download/v0.5.0/update-docker-tags_0.5.0_Linux_x86_64.tar.gz"
-      sha256 "32ab4c553058354c85303c9917045a701036b59ba11ee306cfdb1f1151d42d47"
+      url "https://github.com/slimsag/update-docker-tags/releases/download/v0.6.0/update-docker-tags_0.6.0_Linux_x86_64.tar.gz"
+      sha256 "0c08d9dba0a3e04fbd9c1d8be48fd1e8ff8bc384f008e6574122e62f49328787"
     end
   end
   
